@@ -10,3 +10,4 @@ Explores if initialized cluster centers can approach the "ideal" in a K-Means cl
 # Pop-Art
 Making Mike Tyson rainbow pop-art using K-Means clustering.
 
+<img width="482" alt="Screenshot 2023-11-04 at 11 32 50 AM" src="https://github.com/pl909/APSexperimentation/assets/116770061/e296b0e6-5a9c-4597-b3c7-bbbbc3431aac">
