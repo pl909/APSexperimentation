@@ -107,7 +107,7 @@ initial_centers = np.array([[-7, 7], [-7, -7], [7, 7], [7, -7]])
 kmeans = KMeans(n_clusters=4, init=initial_centers, n_init=1, random_state=0)
 kmeans.fit(plotted_clusters)
 
-# Initialize the GMM with the KMeans
+# Initialize the GMM with Kmeans
 gmm = GaussianMixture(n_components=4, covariance_type='full', random_state = 0)
 gmm.fit(plotted_clusters)
 
@@ -134,7 +134,7 @@ plt.show()
 
 
 
-# Initialize the GMM with the KMeans
+# Initialize the GMM with EM
 gmm = GaussianMixture(n_components=4, covariance_type='full', random_state = 0)
 gmm.fit(plotted_clusters)
 
